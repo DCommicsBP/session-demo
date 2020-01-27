@@ -1,0 +1,13 @@
+package br.com.daione.sessaodemo.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MainController {
+
+    @GetMapping
+    public String teste(){
+        return "teste";
+    }
+}
